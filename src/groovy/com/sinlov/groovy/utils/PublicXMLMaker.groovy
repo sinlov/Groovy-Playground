@@ -1,3 +1,5 @@
+package com.sinlov.groovy.utils
+
 import groovy.xml.StreamingMarkupBuilder
 
 def comment = "<![CDATA[<!-- address is new to this release -->]]>"
@@ -19,3 +21,4 @@ def person = {
 def writer = new FileWriter("person.xml")
 print builder.bind(person).toString()
 writer << builder.bind(person)
+

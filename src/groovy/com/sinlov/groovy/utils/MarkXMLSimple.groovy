@@ -1,3 +1,5 @@
+package com.sinlov.groovy.utils
+
 import groovy.xml.MarkupBuilder
 
 def sw = new StringWriter()
